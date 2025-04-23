@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with: 
-          repository: wychwitch/wychwit.ch
+          repository: "wychwitch/wychwit.ch"
           token: ${{ secrets.CI_SECRET }}
           submodules: true
 
